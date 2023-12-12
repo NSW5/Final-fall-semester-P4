@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    private coid OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player")
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Player collected the coin.");
+            Destroy(this.gameObject);
+        }
     }
     
