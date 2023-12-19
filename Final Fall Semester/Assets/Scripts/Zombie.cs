@@ -25,7 +25,7 @@ public class Zombie : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player"))
         {
             Debug.Log("The Zombie hit the player!");
             GameObject.Find("Game Manager").GetComponent<GameManager>().GameOver();

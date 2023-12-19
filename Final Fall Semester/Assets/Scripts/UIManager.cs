@@ -15,7 +15,6 @@ public class UIManager : MonoBehaviour
         coinCountText.text = "Coins: " + coins.ToString();
     }
 
-    // Update is called once per frame
     public void UpdateCoinCount()
     {
         coins++;

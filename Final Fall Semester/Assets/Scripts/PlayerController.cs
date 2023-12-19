@@ -31,9 +31,9 @@ public class PlayerController : MonoBehaviour
         _playerRb.AddForce(moveDirection * speed);
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Coin"))
+        if(other.gameObject.CompareTag("Coin"))
         {
             _playerAudio.PlayOneShot(coinSound, 1f);
             GameObject.Find("Spawn Manager").GetComponent<SpawnManager>().SpawnCollectibleObject();
@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Zombie"))
+        if(other.gameObject.CompareTag("Zombie"))
         {
             _playerAudio.PlayOneShot(zombieSound, 1f);
         }

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: eca43da65c47e4c629bf1025306e32c4
+  productGUID: 199076f47222e4d2e9aac83ca6b6058f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Final Fall Semester
+  productName: final mini game
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -674,14 +674,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Final Fall Semester
+  metroPackageName: final mini game
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Final Fall Semester
+  metroApplicationDescription: final mini game
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -750,11 +750,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: c8f8bfd2-9fe9-4e42-9485-74bf9cfb9da8
+  cloudProjectId: 494962eb-7298-4f03-9f41-4cc1f677b7e2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Final Fall Semester
-  organizationId: toaster5k
+  projectName: final mini game
+  organizationId: justin-scott-02aa1656-3b5d-47ed-b8cd-e28fbb5acca4
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
